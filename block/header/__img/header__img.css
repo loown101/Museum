@@ -1,0 +1,9 @@
+.header__img {
+  width: 1215px;
+  height: 750px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+}

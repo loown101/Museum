@@ -1,0 +1,15 @@
+.header__text {
+  margin: 0;
+  margin-top: 30px;
+
+  font-family: 'Roboto', 'arial', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}

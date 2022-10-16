@@ -1,0 +1,12 @@
+.picture-explore {
+  background: #030303;
+  border-radius: 0px;
+
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  grid-column-gap: 60px;
+
+  justify-content: space-between;
+  max-height: 865px;
+  padding: 90px 240px 75px;
+}

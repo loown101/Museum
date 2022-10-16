@@ -1,0 +1,20 @@
+.header__link {
+  color: #fff;
+
+  text-decoration: none;
+
+  font-size: 22px;
+  line-height: 227%;
+
+  letter-spacing: 2px;
+
+  cursor: pointer;
+}
+
+.header__link:hover {
+  color: #9d8665;
+}
+
+.header__link:active {
+  color: #9d8665;
+}
