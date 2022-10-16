@@ -1,0 +1,9 @@
+.header__links {
+  margin: 0;
+  margin-left: 76px;
+  list-style-type: none;
+}
+
+.header__links:first-child {
+  margin-left: 0;
+}

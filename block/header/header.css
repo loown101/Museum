@@ -1,0 +1,15 @@
+.header {
+  background: #030303;
+  border-radius: 0px;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 200px auto;
+
+  justify-content: space-between;
+  max-height: 950px;
+  height: 100vh;
+  padding: 75px 240px;
+
+  position: relative;
+}

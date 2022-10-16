@@ -1,0 +1,6 @@
+.header__nav {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  max-height: 200px;
+}
