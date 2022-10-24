@@ -21,3 +21,11 @@
   font-display: swap;
   src: url(./Roboto/Roboto-Regular.woff) format('woff');
 }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(./Roboto/Roboto-Thin.woff) format('woff');
+}

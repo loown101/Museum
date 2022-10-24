@@ -1,0 +1,8 @@
+.visiting {
+  display: flex;
+  flex-direction: column;
+}
+
+.visiting:nth-child(n) {
+  padding: 75px 240px;
+}
