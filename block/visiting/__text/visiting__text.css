@@ -1,0 +1,14 @@
+.visiting__text {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto', 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: 100;
+
+  color: #000000;
+}
+
+.visiting__text:nth-child(n) {
+  padding-top: 10px;
+}
