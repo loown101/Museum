@@ -1,0 +1,6 @@
+.header__info {
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+}

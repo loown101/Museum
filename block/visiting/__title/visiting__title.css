@@ -1,0 +1,31 @@
+.visiting__title {
+  width: 100%;
+
+  font-family: 'Forum', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  margin: 0;
+  padding: 0;
+
+  color: #000000;
+}
+
+.visiting__title:nth-child(n) {
+  margin-top: 25px;
+}
+
+.visiting__title::after {
+  content: '';
+
+  display: block;
+  width: 75%;
+
+  height: 2px;
+  background-color: #710707;
+
+  margin: 10px 0;
+}

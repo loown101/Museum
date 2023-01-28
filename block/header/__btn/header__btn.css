@@ -1,0 +1,31 @@
+.header__btn {
+  box-sizing: border-box;
+  background-color: #710707;
+
+  width: 360px;
+  height: 75px;
+
+  border-radius: 10px;
+  margin-top: 76px;
+
+  font-family: 'Roboto', 'arial', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+
+.header__btn:hover {
+  color: #9d8665;
+}
+
+.header__btn:active {
+  color: #9d8665;
+}

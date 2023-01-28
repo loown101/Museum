@@ -1,0 +1,13 @@
+.header__title {
+  font-family: 'Forum', 'arial', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 179%;
+
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  margin-left: 20px;
+}

@@ -1,0 +1,15 @@
+.video {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas:
+    "video video"
+    "heading description";
+
+  row-gap: 40px;
+}
+
+.video:nth-child(n) {
+  padding: 90px 240px 75px;
+}

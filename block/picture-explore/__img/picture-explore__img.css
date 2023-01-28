@@ -1,0 +1,6 @@
+.picture-explore__img {
+  box-sizing: border-box;
+  grid-column: 2/3;
+  grid-row: 1/6;
+  width: 100%;
+}

@@ -1,0 +1,44 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/font.css');
+
+@import url('./style.css');
+
+@import url('../block/title-block/title-block.css');
+@import url('../block/title-block/_border/title-block_border.css');
+@import url('../block/title-block/_color/title-block_color_dark.css');
+@import url('../block/title-block/_color/title-block_color_ligth.css');
+@import url('../block/text-small/text-small.css');
+
+@import url('../block/header/header.css');
+@import url('../block/header/__logo/header__logo.css');
+@import url('../block/header/__title/header__title.css');
+
+@import url('../block/header/__text/header__text.css');
+@import url('../block/header/__list/header__list.css');
+@import url('../block/header/__links/header__links.css');
+@import url('../block/header/__link/header__link.css');
+@import url('../block/header/__info/header__info.css');
+@import url('../block/header/__nav/header__nav.css');
+@import url('../block/header/__img/header__img.css');
+@import url('../block/header/__btn/header__btn.css');
+
+@import url('../block/visiting/visiting.css');
+@import url('../block/visiting/__cards/visiting__cards.css');
+@import url('../block/visiting/__title/visiting__title.css');
+@import url('../block/visiting/__text/visiting__text.css');
+@import url('../block/visiting/__text/_medium/visiting__text_medium.css');
+@import url('../block/visiting/__text/_small/visiting__text_small.css');
+
+@import url('../block/picture-explore/picture-explore.css');
+@import url('../block/picture-explore/__img/picture-explore__img.css');
+
+@import url('../block/video/video.css');
+@import url('../block/video/__container/video__container.css');
+@import url('../block/video/__controller/video__controller.css');
+@import url('../block/video/__container-range/video__container-range.css');
+@import url('../block/video/__container-range/_size/video__container-range_size_large.css');
+@import url('../block/video/__container-range/_size/video__container-range_size_small.css');
+@import url('../block/video/__image/video__image.css');
+@import url('../block/video/__btn-play/video__btn-play.css');
+@import url('../block/video/__description-heading/video__description-heading.css');
+@import url('../block/video/__description-text/video__description-text.css');

@@ -1,0 +1,11 @@
+.title-block {
+  margin: 0;
+  font-family: 'Forum', 'arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 112%;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
