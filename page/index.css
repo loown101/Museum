@@ -3,6 +3,9 @@
 
 @import url('./style.css');
 
+@import url('../block/theme/theme.css');
+@import url('../block/theme/_color/theme_color_dark.css');
+
 @import url('../block/title-block/title-block.css');
 @import url('../block/title-block/_border/title-block_border.css');
 @import url('../block/title-block/_color/title-block_color_dark.css');
@@ -42,3 +45,21 @@
 @import url('../block/video/__btn-play/video__btn-play.css');
 @import url('../block/video/__description-heading/video__description-heading.css');
 @import url('../block/video/__description-text/video__description-text.css');
+
+@import url('../block/tickets/tickets.css');
+@import url('../block/tickets/__block-counter/tickets__block-counter.css');
+@import url('../block/tickets/__block-counter/tickets__block-counter.css');
+@import url('../block/tickets/__block/tickets__block.css');
+@import url('../block/tickets/__btn-now/tickets__btn-now.css');
+@import url('../block/tickets/__btn-radio/tickets__btn-radio.css');
+@import url('../block/tickets/__img/tickets__img.css');
+@import url('../block/tickets/__info/tickets__info.css');
+@import url('../block/tickets/__radioBtn/tickets__radioBtn.css');
+@import url('../block/tickets/__subtitle/tickets__subtitle.css');
+@import url('../block/tickets/__text-small/tickets__text-small.css');
+
+@import url('../block/counter/counter.css');
+@import url('../block/counter/__number/counter__number.css');
+@import url('../block/counter/__sign/counter__sign.css');
+@import url('../block/counter/__sign/_size/counter__sign_size_normal.css');
+@import url('../block/counter/__sign/_size/counter__sign_size_small.css');

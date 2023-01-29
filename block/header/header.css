@@ -1,7 +1,4 @@
 .header {
-  background: #030303;
-  border-radius: 0px;
-
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: 200px auto;
