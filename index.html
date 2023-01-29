@@ -50,77 +50,47 @@
       <img src="./images/museum.jpg" alt="museum" class="header__img" />
     </header>
     <main>
-      <section class="visiting">
-        <h2 class="title-block title-block_color_ligth title-block_border">
-          Virtual tour
-        </h2>
-        <ul class="visiting__cards">
-          <li class="visiting__card">
-            <img src="./images/palace.jpg" alt="" class="visiting__image" />
-            <h3 class="visiting__title">Royal Palace</h3>
-            <p class="visiting__text visiting__text_medium">
-              360° Virtual Tour
-            </p>
-            <p class="visiting__text visiting__text_small">
-              Google Street Panorama View
-            </p>
-          </li>
-          <li class="visiting__card">
-            <img src="./images/wing.jpg" alt="" class="visiting__image" />
-            <h3 class="visiting__title">Denon Wing</h3>
-            <p class="visiting__text visiting__text_medium">
-              360° Virtual Tour
-            </p>
-            <p class="visiting__text visiting__text_small">
-              Google Street Panorama View
-            </p>
-          </li>
-          <li class="visiting__card">
-            <img src="./images/Colonnade.jpg" alt="" class="visiting__image" />
-            <h3 class="visiting__title">Colonnade Perrault</h3>
-            <p class="visiting__text visiting__text_medium">
-              360° Virtual Tour
-            </p>
-            <p class="visiting__text visiting__text_small">
-              Google Street Panorama View
-            </p>
-          </li>
-          <li class="visiting__card">
-            <img src="./images/hall.jpg" alt="" class="visiting__image" />
-            <h3 class="visiting__title">Greek hall</h3>
-            <p class="visiting__text visiting__text_medium">
-              360° Virtual Tour
-            </p>
-            <p class="visiting__text visiting__text_small">
-              Google Street Panorama View
-            </p>
-          </li>
-          <li class="visiting__card">
-            <img src="./images/lisa.jpg" alt="" class="visiting__image" />
-            <h3 class="visiting__title">Mona Lisa</h3>
-            <p class="visiting__text visiting__text_medium">
-              360° Virtual Tour
-            </p>
-            <p class="visiting__text visiting__text_small">
-              Google Street Panorama View
-            </p>
-          </li>
-          <li class="visiting__card">
-            <img
-              src="./images/night_palaca.jpg"
-              alt=""
-              class="visiting__image"
-            />
-            <h3 class="visiting__title">Night Palace</h3>
-            <p class="visiting__text visiting__text_medium">
-              360° Virtual Tour
-            </p>
-            <p class="visiting__text visiting__text_small">
-              Google Street Panorama View
-            </p>
-          </li>
-        </ul>
-      </section>
+    <section class="visiting">
+      <h2 class="title-block title-block_color_ligth title-block_border">Virtual tour</h2>
+      <ul class="visiting__cards">
+        <li class="visiting__card">
+          <img src="./images/palace.jpg" alt="" class="visiting__image">
+          <h3 class="visiting__title">Royal Palace</h3>
+          <p class="visiting__text visiting__text_medium">360° Virtual Tour</p>
+          <p class="visiting__text visiting__text_small">Google Street Panorama View</p>
+        </li>
+        <li class="visiting__card">
+          <img src="./images/wing.jpg" alt="" class="visiting__image">
+          <h3 class="visiting__title">Denon Wing</h3>
+          <p class="visiting__text visiting__text_medium">360° Virtual Tour</p>
+          <p class="visiting__text visiting__text_small">Google Street Panorama View</p>
+        </li>
+        <li class="visiting__card">
+          <img src="./images/Colonnade.jpg" alt="" class="visiting__image">
+          <h3 class="visiting__title">Colonnade Perrault</h3>
+          <p class="visiting__text visiting__text_medium">360° Virtual Tour</p>
+          <p class="visiting__text visiting__text_small">Google Street Panorama View</p>
+        </li>
+        <li class="visiting__card">
+          <img src="./images/hall.jpg" alt="" class="visiting__image">
+          <h3 class="visiting__title">Greek hall</h3>
+          <p class="visiting__text visiting__text_medium">360° Virtual Tour</p>
+          <p class="visiting__text visiting__text_small">Google Street Panorama View</p>
+        </li>
+        <li class="visiting__card">
+          <img src="./images/lisa.jpg" alt="" class="visiting__image">
+          <h3 class="visiting__title">Mona Lisa</h3>
+          <p class="visiting__text visiting__text_medium">360° Virtual Tour</p>
+          <p class="visiting__text visiting__text_small">Google Street Panorama View</p>
+        </li>
+        <li class="visiting__card">
+          <img src="./images/night_palaca.jpg" alt="" class="visiting__image">
+          <h3 class="visiting__title">Night Palace</h3>
+          <p class="visiting__text visiting__text_medium">360° Virtual Tour</p>
+          <p class="visiting__text visiting__text_small">Google Street Panorama View</p>
+        </li>
+      </ul>
+    </section>
       <section class="picture-explore theme_dark" id="picture-explore">
         <h2 class="title-block title-block_color_dark title-block_border">
           Picture explore
@@ -145,7 +115,26 @@
           been damaged in any way, but because it looked different.
         </p>
       </section>
-      <section>2222</section>
+      <section class="video" id="video">
+      <div class="video__container">
+        <img src="./images/Rectangle.jpg" alt="video" class="video__image">
+        <button class="video__btn-play"></button>
+        <div class="video__controller">
+          <img src="./images/left.svg" alt="">
+          <img src="./images/pauza.svg" alt="">
+          <img src="./images/right.svg" alt="">
+          <input type="range" class="video__container-range video__container-range_size_large">
+          <img src="./images/volume.svg" alt="">
+          <input type="range" class="video__container-range video__container-range_size_small">
+          <img src="./images/fullscreen.svg" alt="">
+        </div>
+      </div>
+      <h2 class="title-block title-block_color_ligth video__description-heading">Video journey</h2>
+      <p class="text-small text-small_dark video__description-text">
+        Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or
+        Hammurabi's Code
+      </p>
+      </section>
       <section class="tickets theme theme_color_dark">
         <h2 class="title-block title-block_color_dark title-block_border">
           Buy tickets
@@ -163,7 +152,6 @@
                 checked="checked"
               />Permanent exhibition
             </label>
-
             <label class="tickets__text-small"
               ><input
                 class="tickets__btn-radio"
@@ -172,7 +160,6 @@
                 id="radioBtnTwo"
               />Temporary exhibition
             </label>
-
             <label class="tickets__text-small"
               ><input
                 class="tickets__btn-radio"

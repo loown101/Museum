@@ -1,0 +1,31 @@
+.video__container-range {
+  appearance: none;
+  background: transparent;
+  /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  /* box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; */
+  /* Add cool effects to your sliders! */
+}
+
+
+.video__container-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -5px;
+  z-index: 2;
+  /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  /* box-shadow: -200px 0px 0px 200px #830f0f, -500px 100px 500px #d18282; */
+  box-shadow: -500px 0 0 500px #24809E;
+  /* Add cool effects to your sliders! */
+}
+
+.video__container-range::-webkit-slider-runnable-track {
+  height: 8px;
+  cursor: pointer;
+  background: #C4C4C4;
+  overflow: hidden;
+}
