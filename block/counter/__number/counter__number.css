@@ -1,0 +1,8 @@
+.counter__number {
+  display: block;
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  width: 50px;
+  text-align: end;
+}

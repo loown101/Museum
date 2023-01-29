@@ -1,111 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./page/index.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/logo_dark.svg"
+      type="image/x-icon"
+    />
+    <title>Museum</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./page/index.css" />
-  <link rel="shortcut icon" href="./images/logo_dark.svg" type="image/x-icon" />
-  <title>Museum</title>
-</head>
+  <body class="page">
+    <header class="header theme_dark">
+      <div class="header__logo">
+        <img class="logo" src="./images/logo.svg" alt="logo" />
+        <h1 class="header__title">Louvre</h1>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__links">
+            <a href="#" class="header__link">Visiting</a>
+          </li>
+          <li class="header__links">
+            <a href="#picture-explore" class="header__link">Explore</a>
+          </li>
+          <li class="header__links">
+            <a href="#" class="header__link">Video</a>
+          </li>
+          <li class="header__links">
+            <a href="#" class="header__link">Tickets</a>
+          </li>
+          <li class="header__links">
+            <a href="#" class="header__link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__info">
+        <h2
+          class="title-block title-block_color_dark title-block_letter-spacing"
+        >
+          Welcome to&nbsp;the&nbsp;Louvre
+        </h2>
+        <p class="header__text">From the castle to the museum</p>
+        <button class="header__btn">Discover the Louvre</button>
+      </div>
+      <img src="./images/museum.jpg" alt="museum" class="header__img" />
+    </header>
+    <main>
+      <section class="visiting">
+        <h2 class="title-block title-block_color_ligth title-block_border">
+          Virtual tour
+        </h2>
+        <ul class="visiting__cards">
+          <li class="visiting__card">
+            <img src="./images/palace.jpg" alt="" class="visiting__image" />
+            <h3 class="visiting__title">Royal Palace</h3>
+            <p class="visiting__text visiting__text_medium">
+              360° Virtual Tour
+            </p>
+            <p class="visiting__text visiting__text_small">
+              Google Street Panorama View
+            </p>
+          </li>
+          <li class="visiting__card">
+            <img src="./images/wing.jpg" alt="" class="visiting__image" />
+            <h3 class="visiting__title">Denon Wing</h3>
+            <p class="visiting__text visiting__text_medium">
+              360° Virtual Tour
+            </p>
+            <p class="visiting__text visiting__text_small">
+              Google Street Panorama View
+            </p>
+          </li>
+          <li class="visiting__card">
+            <img src="./images/Colonnade.jpg" alt="" class="visiting__image" />
+            <h3 class="visiting__title">Colonnade Perrault</h3>
+            <p class="visiting__text visiting__text_medium">
+              360° Virtual Tour
+            </p>
+            <p class="visiting__text visiting__text_small">
+              Google Street Panorama View
+            </p>
+          </li>
+          <li class="visiting__card">
+            <img src="./images/hall.jpg" alt="" class="visiting__image" />
+            <h3 class="visiting__title">Greek hall</h3>
+            <p class="visiting__text visiting__text_medium">
+              360° Virtual Tour
+            </p>
+            <p class="visiting__text visiting__text_small">
+              Google Street Panorama View
+            </p>
+          </li>
+          <li class="visiting__card">
+            <img src="./images/lisa.jpg" alt="" class="visiting__image" />
+            <h3 class="visiting__title">Mona Lisa</h3>
+            <p class="visiting__text visiting__text_medium">
+              360° Virtual Tour
+            </p>
+            <p class="visiting__text visiting__text_small">
+              Google Street Panorama View
+            </p>
+          </li>
+          <li class="visiting__card">
+            <img
+              src="./images/night_palaca.jpg"
+              alt=""
+              class="visiting__image"
+            />
+            <h3 class="visiting__title">Night Palace</h3>
+            <p class="visiting__text visiting__text_medium">
+              360° Virtual Tour
+            </p>
+            <p class="visiting__text visiting__text_small">
+              Google Street Panorama View
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="picture-explore theme_dark" id="picture-explore">
+        <h2 class="title-block title-block_color_dark title-block_border">
+          Picture explore
+        </h2>
+        <img
+          src="./images/explore.jpg"
+          alt="picture-explore"
+          class="picture-explore__img"
+        />
+        <p class="text-small">
+          Las Meninas is a 1656 painting by Diego Velázquez, the leading artist
+          of the Spanish Golden Age.
+        </p>
+        <p class="text-small">
+          It was cleaned in 1984 to remove a
+          <span style="color: #9d8665">"yellow veil"</span>
+          of dust that had gathered since the previous restoration in the 19th
+          century.
+        </p>
+        <p class="text-small">
+          The cleaning provoked furious protests, not because the picture had
+          been damaged in any way, but because it looked different.
+        </p>
+      </section>
+      <section>2222</section>
+      <section class="tickets theme theme_color_dark">
+        <h2 class="title-block title-block_color_dark title-block_border">
+          Buy tickets
+        </h2>
+        <div class="tickets__block">
+          <img src="./images/ticket.jpg" alt="tickets" class="tickets__img" />
+          <div class="tickets__radioBtn">
+            <h3 class="tickets__subtitle">Ticket Type</h3>
+            <label class="tickets__text-small">
+              <input
+                class="tickets__btn-radio"
+                name="radioBtn"
+                type="radio"
+                id="radioBtnOne"
+                checked="checked"
+              />Permanent exhibition
+            </label>
 
-<body class="page">
-  <header class="header">
-    <div class="header__logo">
-      <img class="logo" src="./images/logo.svg" alt="logo" />
-      <h1 class="header__title">Louvre</h1>
-    </div>
-    <nav class="header__nav">
-      <ul class="header__list">
-        <li class="header__links">
-          <a href="#" class="header__link">Visiting</a>
-        </li>
-        <li class="header__links">
-          <a href="#picture-explore" class="header__link">Explore</a>
-        </li>
-        <li class="header__links">
-          <a href="#" class="header__link">Video</a>
-        </li>
-        <li class="header__links">
-          <a href="#" class="header__link">Tickets</a>
-        </li>
-        <li class="header__links">
-          <a href="#" class="header__link">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="header__info">
-      <h2 class="title-block title-block_color_dark title-block_letter-spacing">
-        Welcome to&nbsp;the&nbsp;Louvre
-      </h2>
-      <p class="header__text">From the castle to the museum</p>
-      <button class="header__btn">Discover the Louvre</button>
-    </div>
-    <img src="./images/museum.jpg" alt="museum" class="header__img" />
-  </header>
-  <main>
-    <section class="visiting">
-      <h2 class="title-block title-block_color_ligth title-block_border">Virtual tour</h2>
-      <ul class="visiting__cards">
-        <li class="visiting__card">
-          <img src="./images/palace.jpg" alt="" class="visiting__image">
-          <h3 class="visiting__title">Royal Palace</h3>
-          <p class="visiting__text visiting__text_medium">360° Virtual Tour</p>
-          <p class="visiting__text visiting__text_small">Google Street Panorama View</p>
-        </li>
-        <li class="visiting__card">
-          <img src="./images/wing.jpg" alt="" class="visiting__image">
-          <h3 class="visiting__title">Denon Wing</h3>
-          <p class="visiting__text visiting__text_medium">360° Virtual Tour</p>
-          <p class="visiting__text visiting__text_small">Google Street Panorama View</p>
-        </li>
-        <li class="visiting__card">
-          <img src="./images/Colonnade.jpg" alt="" class="visiting__image">
-          <h3 class="visiting__title">Colonnade Perrault</h3>
-          <p class="visiting__text visiting__text_medium">360° Virtual Tour</p>
-          <p class="visiting__text visiting__text_small">Google Street Panorama View</p>
-        </li>
-        <li class="visiting__card">
-          <img src="./images/hall.jpg" alt="" class="visiting__image">
-          <h3 class="visiting__title">Greek hall</h3>
-          <p class="visiting__text visiting__text_medium">360° Virtual Tour</p>
-          <p class="visiting__text visiting__text_small">Google Street Panorama View</p>
-        </li>
-        <li class="visiting__card">
-          <img src="./images/lisa.jpg" alt="" class="visiting__image">
-          <h3 class="visiting__title">Mona Lisa</h3>
-          <p class="visiting__text visiting__text_medium">360° Virtual Tour</p>
-          <p class="visiting__text visiting__text_small">Google Street Panorama View</p>
-        </li>
-        <li class="visiting__card">
-          <img src="./images/night_palaca.jpg" alt="" class="visiting__image">
-          <h3 class="visiting__title">Night Palace</h3>
-          <p class="visiting__text visiting__text_medium">360° Virtual Tour</p>
-          <p class="visiting__text visiting__text_small">Google Street Panorama View</p>
-        </li>
-      </ul>
-    </section>
-    <section class="picture-explore" id="picture-explore">
-      <h2 class="title-block title-block_color_dark title-block_border">Picture explore</h2>
-      <img src="./images/explore.jpg" alt="picture-explore" class="picture-explore__img" />
-      <p class="text-small">
-        Las Meninas is a 1656 painting by Diego Velázquez, the leading artist
-        of the Spanish Golden Age.
-      </p>
-      <p class="text-small">
-        It was cleaned in 1984 to remove a
-        <span style="color: #9d8665">"yellow veil"</span>
-        of dust that had gathered since the previous restoration in the 19th
-        century.
-      </p>
-      <p class="text-small">
-        The cleaning provoked furious protests, not because the picture had
-        been damaged in any way, but because it looked different.
-      </p>
-    </section>
-    <section>2222</section>
-  </main>
-</body>
+            <label class="tickets__text-small"
+              ><input
+                class="tickets__btn-radio"
+                name="radioBtn"
+                type="radio"
+                id="radioBtnTwo"
+              />Temporary exhibition
+            </label>
 
+            <label class="tickets__text-small"
+              ><input
+                class="tickets__btn-radio"
+                name="radioBtn"
+                type="radio"
+                id="radioBtnTree"
+              />Combined Admission
+            </label>
+          </div>
+
+          <div class="tickets__block-counter">
+            <h3 class="tickets__subtitle">Amount</h3>
+            <p class="tickets__text-small">Basic 18+</p>
+            <div class="counter">
+              <button
+                type="button"
+                class="counter__sign counter__sign_size_normal"
+              >
+                -
+              </button>
+              <input type="number" class="counter__number" value="1" />
+              <button
+                type="button"
+                class="counter__sign counter__sign_size_small"
+              >
+                +
+              </button>
+            </div>
+
+            <p class="tickets__text-small">Senior 65+</p>
+            <div class="counter">
+              <button
+                type="button"
+                class="counter__sign counter__sign_size_normal"
+              >
+                -
+              </button>
+              <input type="number" class="counter__number" value="1" />
+              <button
+                type="button"
+                class="counter__sign counter__sign_size_small"
+              >
+                +
+              </button>
+            </div>
+            <p class="tickets__subtitle">Total € 220</p>
+            <button class="tickets__btn-now">Buy Now</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
