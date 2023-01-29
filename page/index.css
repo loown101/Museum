@@ -42,3 +42,10 @@
 @import url('../block/video/__btn-play/video__btn-play.css');
 @import url('../block/video/__description-heading/video__description-heading.css');
 @import url('../block/video/__description-text/video__description-text.css');
+
+@import url('../block/contacts/contacts.css');
+@import url('../block/contacts/__container/contacts__container.css');
+@import url('../block/contacts/__title/contacts__title.css');
+@import url('../block/contacts/__list/contacts__list.css');
+@import url('../block/contacts/__item/contacts__item.css');
+@import url('../block/contacts/__maps/contacts__maps.css');
