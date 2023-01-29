@@ -1,0 +1,15 @@
+.tickets__btn-radio {
+  padding: 0;
+  cursor: pointer;
+  margin-right: 14px;
+  width: 17px;
+  height: 17px;
+  border-radius: 12px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  margin-top: 50px;
+}
+
+.tickets__btn-radio:hover {
+  opacity: 0.3;
+}
