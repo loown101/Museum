@@ -1,0 +1,9 @@
+.tickets__block {
+  display: grid;
+  grid-template-columns: 50% 1fr 1fr;
+  grid-column-gap: 60px;
+
+  /* display: grid;
+  grid-column: 3/6;
+  grid-row: 2/6; */
+}
