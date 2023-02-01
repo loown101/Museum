@@ -1,7 +1,4 @@
 .picture-explore {
-  background: #030303;
-  border-radius: 0px;
-
   display: grid;
   grid-template-columns: 1fr 50%;
   grid-column-gap: 60px;
