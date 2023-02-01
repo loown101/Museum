@@ -1,4 +1,4 @@
-.header__link {
+.menu__link {
   color: #fff;
 
   text-decoration: none;
@@ -11,10 +11,10 @@
   cursor: pointer;
 }
 
-.header__link:hover {
+.menu__link:hover {
   color: #9d8665;
 }
 
-.header__link:active {
+.menu__link:active {
   color: #9d8665;
 }
