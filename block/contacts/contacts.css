@@ -1,0 +1,7 @@
+.contacts {
+  display: grid;
+}
+
+.contacts:nth-child(n) {
+  padding: 75px 240px;
+}

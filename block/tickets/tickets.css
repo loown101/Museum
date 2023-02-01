@@ -1,0 +1,7 @@
+.tickets {
+  display: block;
+
+  justify-content: space-between;
+  max-height: 893px;
+  padding: 75px 240px;
+}

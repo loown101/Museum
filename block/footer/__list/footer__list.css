@@ -1,0 +1,8 @@
+.footer__list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-column-gap: 175px;
+  margin-left: 145px;
+}
